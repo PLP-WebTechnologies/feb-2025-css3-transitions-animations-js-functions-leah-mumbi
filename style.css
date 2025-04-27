@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+  
+  /* Smooth color transition on hover */
+  button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Animation class */
+  @keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .animate {
+    animation: bounce 0.5s ease;
+  }
+  
